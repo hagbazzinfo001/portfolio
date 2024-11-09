@@ -9,8 +9,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
-
+<link rel="stylesheet" href="/src/asset/css/gen.css">
 </head>
 <body>
      <section class="section">
@@ -426,20 +425,22 @@
           <p><span>Illustration</span><sup>3</sup></p>
           <p><span>Motion</span><sup>1</sup></p>
         </div>
-        <!-- <div class="dropdown" style="width: 100%;">
-          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100% ; background-color: white; color: #391400A3;">
-            Show All
-          </a>
+        <div class="small-screen">
+          <div id="showAll"> 
+          <input type="text" placeholder="Show All">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="20" viewBox="0 0 10 6" fill="none" onclick="cartIcon()">
+            <path d="M5 6L10 0H0L5 6Z" fill="#EF6D58"/>
+          </svg>
+          </div>
         
-          <ul class="dropdown-menu" style="width: 100%;">
+          <ul id="showAll-ul">
             <li><a class="dropdown-item" href="#"><span>Show All</span><sup>14</a></li>
             <li><a class="dropdown-item" href="#"><span>Design</span><sup>6</sup></a></li>
             <li><a class="dropdown-item" href="#"> <span>Branding</span><sup>4</sup></a></li>
             <li><a class="dropdown-item" href="#"> <span>Illustration</span><sup>4</sup></a></li>
             <li><a class="dropdown-item" href="#"><span>Motion</span><sup>1</sup></a></li>
-
           </ul>
-        </div> -->
+        </div>
         <div class="media">
           <div class="sofa"> 
             <div class="sofa1">
@@ -473,8 +474,7 @@
 
       </div>
       
-        <!-- <button  id="button"><a href="">Explore More</a></button> -->
-        <div id="rect">
+         <div id="rect">
           <div>
             <img src="./src/asset/image/icon.svg" alt="" id="star-rect">
           </div>
@@ -562,15 +562,68 @@
       </div> 
      <button  class="button">Explore More</button>
 </div>
-<div>
-  <div>
-    <p  class="header-5">Our Team</p>
-    <p>Team of Designers 
+<div id="team1">
+  <p  class="header-5">Our Team</p>
+ <p id="team-p">Team of Designers 
+   and Developers</p>
+<div class="team1">
+<section >
+ <img src="/src/asset/image/Bitmap (18).png" alt="">
+ <p>Azah Anyeni</p>
+ <p>Designer</p>
+</section>
+<section >
+ <img src="/src/asset/image/Bitmap (19).png" alt="">
+ <p>Roelof Bekkenenks</p>
+ <p>React Developer</p>
+</section>
+<section >
+ <img src="/src/asset/image/Bitmap (20).png" alt="">
+ <p>Leonardo Oliveira</p>
+ <p>Illustrator</p>
+</section>
+<section>
+ <img src="/src/asset/image/Bitmap (21).png" alt="">
+ <p>Product Designer</p>
+ <p>Product Designer</p>
+</section>
+</div>
+ 
+</div> 
+
+
+<div id="team" >
+     <p  class="header-5">Our Team</p>
+    <p id="team-p">Team of Designers 
       and Developers</p>
-  </div> 
-  <div>
-    
-  </div>
+ <div class="team">
+  <section class="mySlides fade">
+    <img src="/src/asset/image/Bitmap (18).png" alt="">
+    <p>Azah Anyeni</p>
+    <p>Designer</p>
+  </section>
+  <section class="mySlides fade">
+    <img src="/src/asset/image/Bitmap (19).png" alt="">
+    <p>Roelof Bekkenenks</p>
+    <p>React Developer</p>
+  </section>
+  <section class="mySlides fade">
+    <img src="/src/asset/image/Bitmap (20).png" alt="">
+    <p>Leonardo Oliveira</p>
+    <p>Illustrator</p>
+  </section>
+  <section class="mySlides fade">
+    <img src="/src/asset/image/Bitmap (21).png" alt="">
+    <p>Product Designer</p>
+    <p>Product Designer</p>
+  </section>
+ </div>
+ <div class="dot-div" >
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
 </div> 
  
 
@@ -1021,7 +1074,6 @@ Dream Project
    <script src="./src/asset/js/portfolio.js">
     
    </script>
-       <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
-
+ 
 </body>
 </html> 
