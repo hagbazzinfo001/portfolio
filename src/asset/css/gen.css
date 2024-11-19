@@ -681,6 +681,19 @@ font-size: 4rem;
 line-height: 64px; /* 114.286% */
 letter-spacing: -1px;
 }
+@media (max-width:800px) {
+    .experience{
+        color: var(--Text_Dark, #391400);
+    font-feature-settings: 'liga' off, 'clig' off;
+    
+     font-family: Epilogue;
+    font-size: 2.9em;
+     font-weight: 800;
+    line-height: 54px; /* 114.286% */
+    letter-spacing: -1px;
+    }  
+}
+
 #showAll{
     display: flex;
     flex-direction: row;
@@ -734,7 +747,6 @@ letter-spacing: -1px;
     display: flex;
     flex-direction: row;
     width: 100%;
-   
         scroll-snap-type: x mandatory; /* or 'y' for vertical scrolling */
         overflow-x: scroll; /* Enable horizontal scroll for the container */
         scroll-behavior: smooth; /* Smooth snapping transition */
@@ -812,33 +824,7 @@ width: 50%;
         font-size: 2em;
         line-height: 46px;
         }
-    
-  
-      
- 
-   
- 
-   .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  .dot-div{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-   .fade {
+       .fade {
     animation-name: fade;
     animation-duration: 1.5s;
   }

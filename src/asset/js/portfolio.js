@@ -14,33 +14,33 @@ function cartIcon(){
 }
 
 
-let slideIndex = 1;
-showSlides(slideIndex);
+// let slideIndex = 1;
+// showSlides(slideIndex);
 
- function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+//  function plusSlides(n) {
+//   showSlides(slideIndex += n);
+// }
 
- function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+//  function currentSlide(n) {
+//   showSlides(slideIndex = n);
+// }
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-// let startX; 
+// function showSlides(n) {
+//   let i;
+//   let slides = document.getElementsByClassName("mySlides");
+//   let dots = document.getElementsByClassName("dot");
+//   if (n > slides.length) {slideIndex = 1}
+//   if (n < 1) {slideIndex = slides.length}
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex-1].style.display = "block";
+//   dots[slideIndex-1].className += " active";
+// }
+// // let startX; 
 
 // const teamSection = document.querySelector('.team');
 
@@ -61,4 +61,34 @@ function showSlides(n) {
 //          plusSlides(-1);
 //     }
 // }
- 
+//  
+  
+
+
+
+// const sectionsContainer = document.getElementById('sections');
+// const sections = document.querySelectorAll('.section');
+// const circles = document.querySelectorAll('#circles svg');
+
+// circles.forEach((circle, index) => {
+//   circle.addEventListener('click', () => {
+//     // Reset all sections and circles
+//     sections.forEach((section) => section.classList.remove('active'));
+//     circles.forEach((circle) => circle.classList.remove('active'));
+
+//     // Activate the clicked circle and corresponding section
+//     circle.classList.add('active');
+//     sections[index].classList.add('active');
+
+//     // Move the active section to the center
+//     const offset = index * -30; // Each section takes 100% width
+//     // sectionsContainer.style.transform = `translateX(${offset}%)`;
+//   });
+// });
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     circles[0].classList.add('active');
+//     sections[0].classList.add('active');
+//     sectionsContainer.style.transform = 'translateY(0%)';
+//   });
+  
