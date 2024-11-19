@@ -732,7 +732,7 @@ letter-spacing: -2px;
     width: 100%;
     border-radius: 6px;
 }
-@media (max-width:) {
+@media (max-width:800px) {
     #showAll{
         display: flex;
         flex-direction: row;
