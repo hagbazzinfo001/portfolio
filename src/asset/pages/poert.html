@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/src/asset/image/Polygon.svg">
+    <link rel="stylesheet" href="/src/asset/css/style.css">
+    <link rel="stylesheet" href="/src/asset/css/gen.css">
+    <link rel="stylesheet" href="/src/asset/css/port.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/src/asset/css/service.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="section">
+        <nav class="modern-studio" style="margin-top: 0;">
+            <div id="Polygon">
+                <img src="/src/asset/image/Polygon.svg" alt="">
+                <span style="color: white;"> <a href="/index.html" style="color: white; text-decoration: none;"> Agency</a></span>
+              </div>
+                 <ul class="inline-flex">
+                    <li class="hideOnMobile"><a href="#"> About Us</a></li>
+                    <li class="hideOnMobile"><a href="/src/asset/pages/service.html">   Service </a></li>
+
+                    <li class="hideOnMobile"><a href=""> Pricing </a></li>
+
+                    <li class="hideOnMobile"><a href="/src/asset/pages/blog.html"> Blog </a></li>
+
+                </ul>
+                <a href="/src/asset/pages/contact.html" class="hideOnMobile"> <button type="button"> 
+                    Connect
+                </button>
+              </a>
+              <svg onclick="showSidebar()" class="menu" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                <rect x="0.5" y="0.5" width="47" height="47" rx="5.5" stroke="white" stroke-opacity="0.295743"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 18C16 17.4477 16.4477 17 17 17H31C31.5523 17 32 17.4477 32 18C32 18.5523 31.5523 19 31 19H17C16.4477 19 16 18.5523 16 18ZM16 24C16 23.4477 16.4477 23 17 23H31C31.5523 23 32 23.4477 32 24C32 24.5523 31.5523 25 31 25H17C16.4477 25 16 24.5523 16 24ZM17 29C16.4477 29 16 29.4477 16 30C16 30.5523 16.4477 31 17 31H31C31.5523 31 32 30.5523 32 30C32 29.4477 31.5523 29 31 29H17Z" fill="white"/>
+              </svg>
+        </nav>
+             <nav id="sideBar"  class="main-top-div">
+           <svg onclick="hideSidebar()" class="menu" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-x-square" viewBox="0 0 16 16">
+            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+          </svg>            
+              <ul class="inline-flex">
+            <li><a href="#"> About </a></li>
+            <li><a href="/src/asset/pages/service.html">   Service </a></li>
+
+            <li><a href="/src/asset/pages/"> Pricing </a></li>
+
+            <li><a href="/src/asset/pages/blog.html"> Blog </a></li>
+
+        </ul>
+        <a href="/src/asset/pages/contact.html"> <button type="button"> 
+            Connect
+        </button>
+      </a>
+         </nav>
+
+    </a>
+        
+        
+        <div class="about-div">
+            <h1 >Portfolio</h1>
+            <p>Agency provides a full service range including technical skills, design, business understanding..</p>
+        </div>
+     </section>
+     <section class="section-001">
+        <div id="portfolio">
+        
+          <div class="cart" >
+            <p><span>Show All</span><sup>14</sup></p>
+            <p><span>Design</span><sup>6</sup></p>
+            <p><span>Branding</span><sup>4</sup></p>
+            <p><span>Illustration</span><sup>3</sup></p>
+            <p><span>Motion</span><sup>1</sup></p>
+          </div>
+          <!-- <div class="small-screen">
+            <div id="showAll"> 
+            <input type="text" placeholder="Show All">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="20" viewBox="0 0 10 6" fill="none" onclick="cartIcon()">
+              <path d="M5 6L10 0H0L5 6Z" fill="#EF6D58"/>
+            </svg>
+            </div>
+          
+            <ul id="showAll-ul">
+              <li><a class="dropdown-item" href="#"><span>Show All</span><sup>14</a></li>
+              <li><a class="dropdown-item" href="#"><span>Design</span><sup>6</sup></a></li>
+              <li><a class="dropdown-item" href="#"> <span>Branding</span><sup>4</sup></a></li>
+              <li><a class="dropdown-item" href="#"> <span>Illustration</span><sup>4</sup></a></li>
+              <li><a class="dropdown-item" href="#"><span>Motion</span><sup>1</sup></a></li>
+            </ul>
+          </div> -->
+          <div class="small-screen">
+            <div id="showAll"> 
+            <input type="text" placeholder="Show All">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="20" viewBox="0 0 10 6" fill="none" onclick="cartIcon()">
+              <path d="M5 6L10 0H0L5 6Z" fill="#EF6D58"/>
+            </svg>
+            </div>
+          
+            <ul id="showAll-ul">
+              <li><a class="dropdown-item" href="#"><span>Show All</span><sup>14</a></li>
+              <li><a class="dropdown-item" href="#"><span>Design</span><sup>6</sup></a></li>
+              <li><a class="dropdown-item" href="#"> <span>Branding</span><sup>4</sup></a></li>
+              <li><a class="dropdown-item" href="#"> <span>Illustration</span><sup>4</sup></a></li>
+              <li><a class="dropdown-item" href="#"><span>Motion</span><sup>1</sup></a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- <div id="rect">
+            <div>
+              <img src="./src/asset/image/icon.svg" alt="" id="star-rect">
+            </div> -->
+             
+             
+  
+ 
+  </section> 
+
+
+
+
+
+     <div class="yours">
+        <div class="yours-div">
+          <p>
+            We’re Help 
+  To Build Your 
+  Dream Project
+          </p>
+          <p>
+            A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.
+          </p>
+          <button class="about-btn" id="contact-btn">Contact Us</button>
+        </div>
+        <hr>
+        <div>
+          <img src="/src/asset/image/Bitmap (39).svg" alt="">
+        </div>
+       </div>
+
+
+     <div class="lang">
+        <p class="lang-p">Agency</p>
+       <div>
+        <p>Menu</p>
+        <ul>
+            <li>About
+            </li>
+            <li> 
+            Services
+            </li>
+            <li> 
+            Blog
+            </li>
+            <li> 
+            Contact</li>
+        </ul>
+       </div>
+       <div>
+        <p>Service</p>
+        <ul>
+            <li>Design
+            </li>
+            <li> 
+              Development
+            </li>
+            <li> 
+              Marketing
+            </li>
+            <li> 
+              See More</li>
+        </ul>
+       </div>
+       <svg xmlns="http://www.w3.org/2000/svg" width="160" height="48" viewBox="0 0 160 48" fill="none">
+        <circle cx="136" cy="24" r="24" fill="#EF6D58"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M136 16C133.827 16 133.556 16.0093 132.701 16.0493C129.795 16.1827 128.181 17.7947 128.048 20.7013C128.009 21.556 128 21.828 128 24C128 26.1733 128.009 26.4453 128.048 27.2987C128.181 30.204 129.795 31.8187 132.701 31.952C133.556 31.9907 133.827 32 136 32C138.173 32 138.445 31.9907 139.3 31.952C142.201 31.8187 143.821 30.2067 143.952 27.2987C143.991 26.4453 144 26.1733 144 24C144 21.828 143.991 21.556 143.952 20.7013C143.821 17.7987 142.207 16.1813 139.3 16.0493C138.445 16.0093 138.173 16 136 16ZM136 17.4427C138.136 17.4427 138.389 17.4507 139.233 17.4893C141.403 17.588 142.413 18.616 142.513 20.768C142.551 21.612 142.559 21.864 142.559 24C142.559 26.136 142.551 26.3893 142.513 27.232C142.413 29.3827 141.404 30.4133 139.233 30.512C138.389 30.5493 138.137 30.5587 136 30.5587C133.864 30.5587 133.611 30.5507 132.768 30.512C130.595 30.412 129.588 29.38 129.488 27.232C129.451 26.3893 129.441 26.136 129.441 24C129.441 21.864 129.451 21.6107 129.488 20.768C129.587 18.6147 130.597 17.5867 132.768 17.488C133.611 17.4493 133.864 17.4427 136 17.4427ZM131.892 24C131.892 21.7307 133.732 19.892 136 19.892C138.268 19.892 140.108 21.732 140.108 24C140.108 26.2693 138.268 28.108 136 28.108C133.732 28.108 131.892 26.2693 131.892 24ZM136 26.6667C134.527 26.6667 133.333 25.4733 133.333 24C133.333 22.528 134.527 21.3333 136 21.3333C137.472 21.3333 138.668 22.5267 138.668 24C138.668 25.4733 137.472 26.6667 136 26.6667ZM139.309 19.7307C139.309 19.2 139.74 18.7707 140.269 18.7707C140.801 18.7707 141.231 19.2 141.231 19.7307C141.231 20.2613 140.8 20.6907 140.269 20.6907C139.739 20.6907 139.309 20.26 139.309 19.7307Z" fill="white"/>
+        <circle cx="80" cy="24" r="24" fill="#EF6D58"/>
+        <path d="M88 19.54C87.412 19.8013 86.7787 19.9773 86.1147 20.0573C86.7933 19.6507 87.312 19.008 87.5587 18.2413C86.924 18.6173 86.2213 18.8907 85.4733 19.0373C84.876 18.3987 84.0213 18 83.0787 18C80.9587 18 79.4013 19.9773 79.88 22.0307C77.1533 21.8933 74.7333 20.5867 73.1147 18.6013C72.2547 20.076 72.6693 22.0067 74.1307 22.984C73.5933 22.9667 73.088 22.8187 72.6453 22.5733C72.6093 24.0933 73.7 25.516 75.2787 25.8333C74.8173 25.9587 74.3107 25.988 73.796 25.8893C74.2133 27.1933 75.428 28.1413 76.8627 28.168C75.48 29.2507 73.7427 29.7347 72 29.5293C73.4533 30.4613 75.1773 31.004 77.0307 31.004C83.1267 31.004 86.5693 25.856 86.3613 21.2387C87.004 20.7773 87.56 20.1987 88 19.54Z" fill="white"/>
+        <circle cx="24" cy="24" r="24" fill="#EF6D58"/>
+        <path d="M21.6667 21.3333H19V24H21.6667V32H25.6667V24H28.0933L28.3333 21.3333H25.6667V20.2227C25.6667 19.5853 25.7947 19.3333 26.4107 19.3333H28.3333V16H25.128C22.7307 16 21.6667 17.056 21.6667 19.0773V21.3333Z" fill="white"/>
+      </svg>
+       </div>
+     <footer>
+        <p id="f-1st">Copyright © 2022 Hagbazz. All Rights Reserved.</p>
+        <div>
+          <p><a href="">Terms of Use</a></p>
+          <p><a href="">Privacy Policy</a></p>
+        </div>
+       </footer>
+     <script src="/src/asset/js/portfolio.js"></script>
+</body>
+</html>

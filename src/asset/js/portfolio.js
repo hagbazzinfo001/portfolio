@@ -12,8 +12,44 @@ function cartIcon(){
     const searchBar=document.querySelector("#showAll-ul")
     searchBar.classList.toggle('show');
 }
+   // Select the button
+  const button = document.getElementById('contact-btn');
 
+  // Add a click event listener
+  button.addEventListener('click', () => {
+    // Navigate to another page
+    window.location.href = '/src/asset/pages/contact.html';
+  });
+  const about = document.getElementById('about-btn');
 
+  // Add a click event listener
+  about.addEventListener('click', () => {
+    // Navigate to another page
+    window.location.href = '/src/asset/pages/about.html';
+  });
+  const explore2 = document.getElementById('explore2-btn');
+
+  // Add a click event listener
+  explore2.addEventListener('click', () => {
+    // Navigate to another page
+    window.location.href = '/src/asset/pages/poert.html';
+  });
+  const blog = document.getElementById('blog-btn');
+
+  // Add a click event listener
+  blog.addEventListener('click', () => {
+    // Navigate to another page
+    window.location.href = '/src/asset/pages/blog.html';
+  });
+ 
+  const button1 = document.getElementById('contact-btn1');
+
+  // Add a click event listener
+  button1.addEventListener('click', () => {
+    // Navigate to another page
+    window.location.href = '../pages/contact.html';
+  });
+  
 // let slideIndex = 1;
 // showSlides(slideIndex);
 
